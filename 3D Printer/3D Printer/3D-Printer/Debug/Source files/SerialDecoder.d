@@ -1,7 +1,9 @@
-Sketch.d Sketch.o: .././Sketch.cpp \
- ..\\..\ArduinoCore\include\core/Arduino.h \
+Source files/SerialDecoder.d Source files/SerialDecoder.o: \
+ ../Source\ files/SerialDecoder.cpp \
+ ../Source\ files/..\Header\ files\SerialDecoder.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h \
+ ..\\..\ArduinoCore\include\core/Arduino.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdbool.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\string.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\math.h \
@@ -34,15 +36,15 @@ Sketch.d Sketch.o: .././Sketch.cpp \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
  ..\\..\ArduinoCore\include\core/Arduino.h \
- ..\\..\ArduinoCore\include\variants\mega/pins_arduino.h \
- .././Header\ files\StepperMotor.h .././Header\ files\LimitSwitch.h \
- .././Header\ files\SerialDecoder.h
+ ..\\..\ArduinoCore\include\variants\mega/pins_arduino.h
 
-..\\..\ArduinoCore\include\core/Arduino.h:
+../Source\ files/..\Header\ files\SerialDecoder.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdlib.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stddef.h:
+
+..\\..\ArduinoCore\include\core/Arduino.h:
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\lib\gcc\avr\5.4.0\include\stdbool.h:
 
@@ -109,9 +111,3 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 ..\\..\ArduinoCore\include\core/Arduino.h:
 
 ..\\..\ArduinoCore\include\variants\mega/pins_arduino.h:
-
-.././Header\ files\StepperMotor.h:
-
-.././Header\ files\LimitSwitch.h:
-
-.././Header\ files\SerialDecoder.h:

@@ -1,7 +1,9 @@
 ﻿#include "Arduino.h"
 #include "Header files\StepperMotor.h"
 #include "Header files\LimitSwitch.h"
+#include "Header files\SerialDecoder.h"
 
+///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
 void setup()
 {
 	StepperInit();
@@ -10,11 +12,10 @@ void setup()
 	Serial.println("Connected");
 }
 
+///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
 void loop()
 {
-	String readData, readDataX, readDataY, readDataZ;
-	int x, y, z;
-	int xSteps = 0, ySteps = 0, zSteps = 0;
+	String readData;
 
 	bool limitSwitchX = digitalRead(pinLimitSwitchX);
 	bool limitSwitchY = digitalRead(pinLimitSwitchY);
@@ -22,53 +23,22 @@ void loop()
 	
 	if (Serial.available())
 	{
-		Serial.println("Podaj ilosc krokow x y z: ");
-		readData = Serial.readString();
+		Serial.println("Podaj ilosc krokow:");
+		String readDataString = Serial.readString();
 		
-		int i = 0;
-		while(readData[i] != '\0')
-		{
-			if (readData[i] == ' ')
-			readData.remove(i);
-			i++;
-		}
+		//convert string to char
+		char readDataChar[readDataString.length()];
+		readDataString.toCharArray(readDataChar, readDataString.length());
+		
+		RemoveSpaces(readDataChar);
+		strlwr(readDataChar); //convert data to lowercase
 
-		int j = 0;
-		while(readData[j] != '\0')
-		{
-			if(readData[j] == 'X')
-			{
-				while(readData[j] != 'Y' || readData[j] != 'Z' || readData[j] != '\0' )
-				{
-					readDataX += readData[j+1];
-					j++;
-				}
-			}
-			if(readData[j] == 'X')
-			{
-				while(readData[j] != 'X' || readData[j] != 'Z' || readData[j] != '\0' )
-				{
-					readDataY += readData[j+1];
-					j++;
-				}
-			}
-			if(readData[j] == 'Z')
-			{
-				while(readData[j] != 'X' || readData[j] != 'Y' || readData[j] != '\0' )
-				{
-					readDataZ += readData[j+1];
-					j++;
-				}
-			}
-			j++;
-		}
-
-		x = readDataX.toInt();
-		y = readDataY.toInt();
-		z = readDataZ.toInt();
+		int x = (int)GetNumberAfterCharacter(readDataChar, 'x');
+		int y = (int)GetNumberAfterCharacter(readDataChar, 'y');
+		int z = (int)GetNumberAfterCharacter(readDataChar, 'z');
+		
+		MovementXYZ(&x, &y, &z, limitSwitchX, limitSwitchY, limitSwitchZ);
 	}
-	MovementXYZ(&xStepps, &yStepps, &zStepps,
-	limitSwitchX, limitSwitchY, limitSwitchZ);
 }
 
 

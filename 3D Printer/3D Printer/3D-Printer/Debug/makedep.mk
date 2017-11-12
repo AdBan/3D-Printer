@@ -6,5 +6,7 @@ Sketch.cpp
 
 Source files\LimitSwitch.cpp
 
+Source files\SerialDecoder.cpp
+
 Source files\StepperMotor.cpp
 

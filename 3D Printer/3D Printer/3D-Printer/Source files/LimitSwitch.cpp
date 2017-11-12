@@ -8,6 +8,7 @@
 #include "Arduino.h"
 #include "..\Header Files\LimitSwitch.h"
 
+///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
 void LimitSwitchPinInit()
 {
 	pinMode(pinLimitSwitchX, INPUT);
