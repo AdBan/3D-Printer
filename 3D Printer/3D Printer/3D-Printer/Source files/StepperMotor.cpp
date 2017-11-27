@@ -36,55 +36,55 @@ void StepperInit()
 void ChangeStepperXDir(bool dirX)
 {
 	if (dirX)
-		pinMode(pinDirX, HIGH);
+		digitalWrite(pinDirX, HIGH);	//down
 	else 
-		pinMode(pinDirX, LOW);
+		digitalWrite(pinDirX, LOW);		//up
 }
 
 ///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
 void ChangeStepperYDir(bool dirY)
 {
 	if (dirY)
-		pinMode(pinDirY, HIGH);
+		digitalWrite(pinDirY, HIGH);	//down
 	else 
-		pinMode(pinDirY, LOW);
+		digitalWrite(pinDirY, LOW);		//up
 }
 
 ///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
 void ChangeStepperZDir(bool dirZ)
 {
 	if (dirZ)
-		pinMode(pinDirZ, HIGH);
+		digitalWrite(pinDirZ, HIGH);	//down
 	else 
-		pinMode(pinDirZ, LOW);
+		digitalWrite(pinDirZ, LOW);		//up
 }
 
 ///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
-void MovementXYZ(int *SteppsX, int *SteppsY, int *SteppsZ, bool switchX, bool switchY, bool switchZ)
+void MovementXYZ(int *StepsX, int *StepsY, int *StepsZ, bool switchX, bool switchY, bool switchZ)
 {
-	if (*SteppsX > 0 && !(switchX))
+	//going up
+	if (*StepsX > 0 && !(switchX))
 		digitalWrite(pinStepX, LOW);
-	if (*SteppsY > 0 && !(switchY))
+	if (*StepsY > 0 && !(switchY))
 		digitalWrite(pinStepY, LOW);
-	if (*SteppsZ > 0 && !(switchZ))
+	if (*StepsZ > 0 && !(switchZ))
 		digitalWrite(pinStepZ, LOW);
-	
 	delay(1);
 
-	if (*SteppsX > 0 && !(switchX))
+	if (*StepsX > 0 && !(switchX))
 	{
 		digitalWrite(pinStepX, HIGH);
-		(*SteppsX)--;
+		(*StepsX)--;
 	}
-	if (*SteppsY > 0 && !(switchY))
+	if (*StepsY > 0 && !(switchY))
 	{
 		digitalWrite(pinStepY, HIGH);
-		(*SteppsY)--;
+		(*StepsY)--;
 	}
-	if (*SteppsZ > 0 && !(switchZ))
+	if (*StepsZ > 0 && !(switchZ))
 	{
-		digitalWrite(pinStepZ, LOW);
-		(*SteppsZ)--;
+		digitalWrite(pinStepZ, HIGH);
+		(*StepsZ)--;
 	}
 	delay(1);
 }
