@@ -5,9 +5,10 @@
  *  Author: Adam
  */ 
 
+#include "Arduino.h"
 #include "..\Header files\SerialDecoder.h"
 #include "stdlib.h"
-#include "Arduino.h"
+
 
 ///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
 void RemoveSpaces(char* source)
@@ -36,4 +37,24 @@ double GetNumberAfterCharacter(char* source, char character)
 		}
 	}
 	return 0; //returning '0' won't cause any movement
+}
+
+///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
+Steps DecodeFrame(String frame)
+{
+	Steps steps;
+
+	//convert string to char
+	char readDataChar[frame.length()];
+	frame.toCharArray(readDataChar, frame.length() + 1);
+			
+
+	RemoveSpaces(readDataChar);
+	strlwr(readDataChar); //convert data to lowercase
+
+	steps.x = (int)GetNumberAfterCharacter(readDataChar, 'x');
+	steps.y = (int)GetNumberAfterCharacter(readDataChar, 'y');
+	steps.z = (int)GetNumberAfterCharacter(readDataChar, 'z');
+
+	return steps;
 }

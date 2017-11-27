@@ -9,6 +9,7 @@
 #ifndef STEPPERMOTOR_H_
 #define STEPPERMOTOR_H_
 #include "Arduino.h"
+#include "..\Header files\SerialDecoder.h"
 
 #define pinStepX         54
 #define pinDirX          55
@@ -29,8 +30,8 @@ void StepperInit();
 void ChangeStepperXDir(bool dirX);
 void ChangeStepperYDir(bool dirY);
 void ChangeStepperZDir(bool dirZ);
-void MovementXYZ(int *SteppsX, int *SteppsY, int *SteppsZ,
-bool switchX, bool switchY, bool switchZ);
-
+void ReadLimitSwitch();
+void ChangeSteppersDir(Steps *steps);
+void MovementXYZ(Steps *steps);
 
 #endif /* STEPPERMOTOR_H_ */

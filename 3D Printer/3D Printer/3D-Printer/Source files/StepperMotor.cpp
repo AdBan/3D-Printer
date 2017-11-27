@@ -7,10 +7,14 @@
 
 #include "Arduino.h"
 #include "..\Header files\StepperMotor.h"
+#include "..\Header files\LimitSwitch.h"
 
 ///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
 void StepperInit()
 {
+	//Initialize limit switches
+	LimitSwitchPinInit();
+
 	//direction pins
 	pinMode(pinDirX, OUTPUT);
 	pinMode(pinDirY, OUTPUT);
@@ -30,6 +34,14 @@ void StepperInit()
 	pinMode(pinStepX, OUTPUT);
 	pinMode(pinStepY, OUTPUT);
 	pinMode(pinStepZ, OUTPUT);
+}
+
+///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
+void ReadLimitSwitch(bool *limitSwitchX, bool *limitSwitchY, bool *limitSwitchZ)
+{
+	*limitSwitchX = digitalRead(pinLimitSwitchX);
+	*limitSwitchY = digitalRead(pinLimitSwitchY);
+	*limitSwitchZ = digitalRead(pinLimitSwitchZ);
 }
 
 ///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
@@ -60,31 +72,61 @@ void ChangeStepperZDir(bool dirZ)
 }
 
 ///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
-void MovementXYZ(int *StepsX, int *StepsY, int *StepsZ, bool switchX, bool switchY, bool switchZ)
+void ChangeSteppersDir(Steps *steps)
 {
+// Change steper direction
+	if ((*steps).x > 0)
+		ChangeStepperXDir(false);
+	else
+	{
+		ChangeStepperXDir(true);
+		(*steps).x = abs((*steps).x);
+	}			
+	if ((*steps).y > 0)
+		ChangeStepperYDir(false);
+	else
+	{
+		ChangeStepperYDir(true);
+		(*steps).y = abs((*steps).y);
+	}
+	if ((*steps).z > 0)
+		ChangeStepperZDir(false);
+	else
+	{
+		ChangeStepperZDir(true);
+		(*steps).z = abs((*steps).z);
+	}
+}
+
+///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
+void MovementXYZ(Steps *steps)
+{
+	bool switchX, switchY, switchZ;
+	ReadLimitSwitch(&switchX, &switchY, &switchZ);
+
 	//going up
-	if (*StepsX > 0 && !(switchX))
+	if ((*steps).x > 0 && !(switchX))
 		digitalWrite(pinStepX, LOW);
-	if (*StepsY > 0 && !(switchY))
+	if ((*steps).y > 0 && !(switchY))
 		digitalWrite(pinStepY, LOW);
-	if (*StepsZ > 0 && !(switchZ))
+	if ((*steps).z > 0 && !(switchZ))
 		digitalWrite(pinStepZ, LOW);
 	delay(1);
 
-	if (*StepsX > 0 && !(switchX))
+	if ((*steps).x > 0 && !(switchX))
 	{
 		digitalWrite(pinStepX, HIGH);
-		(*StepsX)--;
+		(*steps).x--;
 	}
-	if (*StepsY > 0 && !(switchY))
+	if ((*steps).y > 0 && !(switchY))
 	{
 		digitalWrite(pinStepY, HIGH);
-		(*StepsY)--;
+		(*steps).y--;
 	}
-	if (*StepsZ > 0 && !(switchZ))
+	if ((*steps).z > 0 && !(switchZ))
 	{
 		digitalWrite(pinStepZ, HIGH);
-		(*StepsZ)--;
+		(*steps).z--;
 	}
 	delay(1);
 }
