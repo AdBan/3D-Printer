@@ -6,6 +6,7 @@
  */ 
 
 #include "Arduino.h"
+#include "..\Header files\Global.h"
 #include "..\Header files\StepperMotor.h"
 #include "..\Header files\LimitSwitch.h"
 
@@ -98,35 +99,39 @@ void ChangeSteppersDir(Steps *steps)
 	}
 }
 
+boolean GetDirection()
+{
+
+}
+
 ///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
 void MovementXYZ(Steps *steps)
 {
 	bool switchX, switchY, switchZ;
 	ReadLimitSwitch(&switchX, &switchY, &switchZ);
 
-	//going up
-	if ((*steps).x > 0 && !(switchX))
+	if ((*steps).x > 0 && (!(switchX) || digitalRead(pinDirX)))
 		digitalWrite(pinStepX, LOW);
-	if ((*steps).y > 0 && !(switchY))
+	if ((*steps).y > 0 && (!(switchY) || digitalRead(pinDirY)))
 		digitalWrite(pinStepY, LOW);
-	if ((*steps).z > 0 && !(switchZ))
+	if ((*steps).z > 0 && (!(switchZ) || digitalRead(pinDirZ)))
 		digitalWrite(pinStepZ, LOW);
-	delay(1);
+	delayMicroseconds(500);
 
-	if ((*steps).x > 0 && !(switchX))
+	if ((*steps).x > 0 && (!(switchX) || digitalRead(pinDirX)))
 	{
 		digitalWrite(pinStepX, HIGH);
 		(*steps).x--;
 	}
-	if ((*steps).y > 0 && !(switchY))
+	if ((*steps).y > 0 && (!(switchY) || digitalRead(pinDirY)))
 	{
 		digitalWrite(pinStepY, HIGH);
 		(*steps).y--;
 	}
-	if ((*steps).z > 0 && !(switchZ))
+	if ((*steps).z > 0 && (!(switchZ) || digitalRead(pinDirZ)))
 	{
 		digitalWrite(pinStepZ, HIGH);
 		(*steps).z--;
 	}
-	delay(1);
+	delayMicroseconds(500);
 }

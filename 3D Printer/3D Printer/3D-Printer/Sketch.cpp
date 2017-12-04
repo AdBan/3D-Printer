@@ -1,9 +1,9 @@
 ﻿#include "Arduino.h"
+#include "Header files\Global.h"
 #include "Header files\StepperMotor.h"
 #include "Header files\SerialDecoder.h"
 
-Steps steps;
-String readDataString;
+Steps steps = {0,0,0};
 
 ///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
 void setup()
@@ -17,11 +17,9 @@ void setup()
 ///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
 void loop()
 {	
-	Serial.println("lololol");
-	if (Serial.available())
+	while (Serial.available())
 	{
 		steps = DecodeFrame(Serial.readString());
-
 		Serial.println(steps.x);
 		Serial.println(steps.y);
 		Serial.println(steps.z);

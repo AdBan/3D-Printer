@@ -6,6 +6,7 @@
  */ 
 
 #include "Arduino.h"
+#include "..\Header files\Global.h"
 #include "..\Header files\SerialDecoder.h"
 #include "stdlib.h"
 
@@ -45,10 +46,9 @@ Steps DecodeFrame(String frame)
 	Steps steps;
 
 	//convert string to char
-	char readDataChar[frame.length()];
+	char readDataChar[frame.length() + 1];
 	frame.toCharArray(readDataChar, frame.length() + 1);
 			
-
 	RemoveSpaces(readDataChar);
 	strlwr(readDataChar); //convert data to lowercase
 

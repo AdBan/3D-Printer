@@ -12,7 +12,8 @@ Source files/SerialDecoder.d Source files/SerialDecoder.o: \
  d:\atmel\ studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\stdint.h \
  d:\atmel\ studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h \
  d:\atmel\ studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h \
- D:\Atmel\ Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\include/avr/iom328p.h \
+ D:\Atmel\ Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\include/avr/iom2560.h \
+ D:\Atmel\ Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\include/avr/iomxx0_1.h \
  d:\atmel\ studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\portpins.h \
  d:\atmel\ studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\common.h \
  d:\atmel\ studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\version.h \
@@ -35,6 +36,7 @@ Source files/SerialDecoder.d Source files/SerialDecoder.o: \
  d:\atmel\ studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_basic.h \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  ..\\..\ArduinoCore\include\variants\mega/pins_arduino.h \
+ ../Source\ files/..\Header\ files\Global.h \
  ../Source\ files/..\Header\ files\SerialDecoder.h
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
@@ -61,7 +63,9 @@ d:\atmel\ studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h:
 
 d:\atmel\ studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h:
 
-D:\Atmel\ Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\include/avr/iom328p.h:
+D:\Atmel\ Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\include/avr/iom2560.h:
+
+D:\Atmel\ Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\include/avr/iomxx0_1.h:
 
 d:\atmel\ studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\portpins.h:
 
@@ -106,5 +110,7 @@ d:\atmel\ studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_ba
 ..\\..\ArduinoCore\include\core/Arduino.h:
 
 ..\\..\ArduinoCore\include\variants\mega/pins_arduino.h:
+
+../Source\ files/..\Header\ files\Global.h:
 
 ../Source\ files/..\Header\ files\SerialDecoder.h:

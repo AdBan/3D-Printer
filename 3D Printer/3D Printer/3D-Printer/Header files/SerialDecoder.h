@@ -9,10 +9,6 @@
 #ifndef SERIALDECODER_H_
 #define SERIALDECODER_H_
 
-typedef struct Steps
-{
-	double x, y, z;
-};
 
 void RemoveSpaces(char* source);
 double GetNumberAfterCharacter(char* source, char character);
