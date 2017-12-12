@@ -26,6 +26,11 @@
 #define pinEnZ           62
 #define pinCSZ           40
 
+#define G00SPEED 8
+#define G01SPEED 5
+#define MAXSPEED 10
+#define MINSPEED 0
+
 void StepperInit();
 void ChangeStepperXDir(bool dirX);
 void ChangeStepperYDir(bool dirY);
@@ -34,4 +39,5 @@ void ReadLimitSwitch();
 void ChangeSteppersDir(Steps *steps);
 void MovementXYZ(Steps *steps);
 
+int SetSpeed(int speed);
 #endif /* STEPPERMOTOR_H_ */

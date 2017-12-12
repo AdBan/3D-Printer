@@ -37,7 +37,9 @@ Source files/SerialDecoder.d Source files/SerialDecoder.o: \
  ..\\..\ArduinoCore\include\core/Arduino.h \
  ..\\..\ArduinoCore\include\variants\mega/pins_arduino.h \
  ../Source\ files/..\Header\ files\Global.h \
- ../Source\ files/..\Header\ files\SerialDecoder.h
+ ../Source\ files/..\Header\ files\SerialDecoder.h \
+ ../Source\ files/..\Header\ files\StepperMotor.h \
+ ../Source\ files/..\Header\ files\..\Header\ files\SerialDecoder.h
 
 ..\\..\ArduinoCore\include\core/Arduino.h:
 
@@ -114,3 +116,7 @@ d:\atmel\ studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\util\delay_ba
 ../Source\ files/..\Header\ files\Global.h:
 
 ../Source\ files/..\Header\ files\SerialDecoder.h:
+
+../Source\ files/..\Header\ files\StepperMotor.h:
+
+../Source\ files/..\Header\ files\..\Header\ files\SerialDecoder.h:

@@ -99,11 +99,6 @@ void ChangeSteppersDir(Steps *steps)
 	}
 }
 
-boolean GetDirection()
-{
-
-}
-
 ///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
 void MovementXYZ(Steps *steps)
 {
@@ -116,7 +111,7 @@ void MovementXYZ(Steps *steps)
 		digitalWrite(pinStepY, LOW);
 	if ((*steps).z > 0 && (!(switchZ) || digitalRead(pinDirZ)))
 		digitalWrite(pinStepZ, LOW);
-	delayMicroseconds(500);
+	delayMicroseconds((*steps).speed);
 
 	if ((*steps).x > 0 && (!(switchX) || digitalRead(pinDirX)))
 	{
@@ -133,5 +128,15 @@ void MovementXYZ(Steps *steps)
 		digitalWrite(pinStepZ, HIGH);
 		(*steps).z--;
 	}
-	delayMicroseconds(500);
+	delayMicroseconds((*steps).speed);
+}
+
+int SetSpeed(int speed)
+{
+	if (speed < 0)
+		speed = 0;
+	else if (speed > 10)
+		speed = 10;
+	
+	return 1000 - map(speed, MINSPEED, MAXSPEED, 0, 750);
 }

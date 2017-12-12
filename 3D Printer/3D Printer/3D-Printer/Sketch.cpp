@@ -3,7 +3,8 @@
 #include "Header files\StepperMotor.h"
 #include "Header files\SerialDecoder.h"
 
-Steps steps = {0,0,0};
+Steps steps = {0, 0, 0, 0};
+String readBuffer;
 
 ///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
 void setup()
@@ -23,6 +24,7 @@ void loop()
 		Serial.println(steps.x);
 		Serial.println(steps.y);
 		Serial.println(steps.z);
+		Serial.println(steps.speed);
 
 		ChangeSteppersDir(&steps);
 	}

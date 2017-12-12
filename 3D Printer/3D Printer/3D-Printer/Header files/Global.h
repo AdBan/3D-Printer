@@ -9,11 +9,11 @@
 #ifndef GLOBAL_H_
 #define GLOBAL_H_
 
-
 typedef struct Steps
 {
-	double x, y, z;
+	double x, y, z, speed;
 };
+
 
 
 #endif /* GLOBAL_H_ */
