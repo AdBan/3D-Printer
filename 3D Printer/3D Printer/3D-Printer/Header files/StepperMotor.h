@@ -26,10 +26,12 @@
 #define pinEnZ           62
 #define pinCSZ           40
 
-#define G00SPEED 8
-#define G01SPEED 5
+#define G00SPEED 9
+#define G01SPEED 4
+#define DEFAULTSPEED 6
 #define MAXSPEED 10
 #define MINSPEED 0
+
 
 void StepperInit();
 void ChangeStepperXDir(bool dirX);

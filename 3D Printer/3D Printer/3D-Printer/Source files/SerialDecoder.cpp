@@ -44,7 +44,7 @@ double GetNumberAfterCharacter(char* source, char character)
 ///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
 Steps DecodeFrame(String frame)
 {
-	Steps steps;
+	Steps steps = {0, 0, 0, SetSpeed((int)DEFAULTSPEED)};
 
 	//convert string to char
 	char readDataChar[frame.length() + 1];
@@ -56,16 +56,16 @@ Steps DecodeFrame(String frame)
 	switch (GetCode(readDataChar))
 	{
 		case 0: 
-			steps.speed = SetSpeed(G00SPEED);
+			steps.speed = SetSpeed((int)G00SPEED);
 			break;
 		case 1:
-			steps.speed = SetSpeed(G01SPEED);
+			steps.speed = SetSpeed((int)G01SPEED);
 			break;
 		case 99:
 			steps.speed = SetSpeed((int)GetNumberAfterCharacter(readDataChar, 'f'));
 			return steps;
 		default:
-			return steps;
+			break;
 	}
 	steps.x = (int)GetNumberAfterCharacter(readDataChar, 'x');
 	steps.y = (int)GetNumberAfterCharacter(readDataChar, 'y');
