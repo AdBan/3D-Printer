@@ -4,16 +4,12 @@ d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/.
                               Source files/StepperMotor.o (__subsf3)
 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
                               d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(addsf3.o) (__addsf3x)
-d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
-                              Sketch.o (__eqsf2)
 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
                               Source files/SerialDecoder.o (__fixsfsi)
 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
                               Source files/StepperMotor.o (__fixunssfsi)
 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
                               Source files/SerialDecoder.o (__floatsisf)
-d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_cmp.o)
-                              d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o) (__fp_cmp)
 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
                               d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_inf)
 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
@@ -30,6 +26,8 @@ d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/.
                               d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(addsf3x.o) (__fp_zero)
 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(gesf2.o)
                               Source files/StepperMotor.o (__gtsf2)
+d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_cmp.o)
+                              d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(gesf2.o) (__fp_cmp)
 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
                               Sketch.o (_ZN14HardwareSerial9availableEv)
 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
@@ -39,17 +37,21 @@ D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debu
 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
                               D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o) (_ZN5Print5writeEPKhj)
 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
-                              Sketch.o (_ZN6Stream15readStringUntilEc)
+                              Sketch.o (_ZN6Stream10readStringEv)
 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
                               D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o) (millis)
 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
                               Source files/LimitSwitch.o (pinMode)
+D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+                              Source files/StepperMotor.o (_Z3maplllll)
 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
                               Sketch.o (_ZN6StringD1Ev)
 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(abi.o)
                               D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__cxa_pure_virtual)
 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
                               D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o) (yield)
+d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
+                              D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__ltsf2)
 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
                               D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__divsf3)
 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
@@ -60,8 +62,14 @@ d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/.
                               d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(mulsf3.o) (__mulsf3x)
 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(unordsf2.o)
                               D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__unordsf2)
+d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulsi3.o)
+                              D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o) (__mulsi3)
 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_udivmodsi4.o)
                               D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o) (__udivmodsi4)
+d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_divmodsi4.o)
+                              D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o) (__divmodsi4)
+d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_negsi2.o)
+                              d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_divmodsi4.o) (__negsi2)
 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_exit.o)
                               D:/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega2560/avr6/crtatmega2560.o (exit)
 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_tablejump2.o)
@@ -82,6 +90,8 @@ d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/.
                               D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o) (dtostrf)
 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(malloc.o)
                               D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o) (free)
+d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(random.o)
+                              D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o) (random)
 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(realloc.o)
                               D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o) (realloc)
 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(strtod.o)
@@ -152,6 +162,8 @@ d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/.
                               d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(isspace.o) (__ctype_isfalse)
 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(strrev.o)
                               d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(ultoa_ncheck.o) (strrev)
+d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulshisi3.o)
+                              d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(random.o) (__mulohisi3)
 
 Allocating common symbols
 Common symbol       size              file
@@ -182,9 +194,6 @@ Discarded input sections
  .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
  .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
  .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
- .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
- .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
- .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
  .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
  .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
  .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
@@ -194,9 +203,6 @@ Discarded input sections
  .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
  .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
  .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
- .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_cmp.o)
- .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_cmp.o)
- .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_cmp.o)
  .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
  .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
  .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
@@ -221,6 +227,9 @@ Discarded input sections
  .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(gesf2.o)
  .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(gesf2.o)
  .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(gesf2.o)
+ .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_cmp.o)
+ .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_cmp.o)
+ .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_cmp.o)
  .group         0x00000000        0x8 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
  .text          0x00000000        0x0 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
  .data          0x00000000        0x0 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
@@ -259,8 +268,6 @@ Discarded input sections
                 0x00000000       0x1c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEPKc
                 0x00000000        0x4 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print5printEc
-                0x00000000        0xe D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printERK9Printable
                 0x00000000       0x14 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEPK19__FlashStringHelper
@@ -271,16 +278,10 @@ Discarded input sections
                 0x00000000       0x24 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnERK9Printable
                 0x00000000       0x24 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print11printNumberEmh
-                0x00000000       0x92 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print5printEmi
-                0x00000000       0x1a D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEhi
                 0x00000000        0xe D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEhi
                 0x00000000       0x24 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print5printEji
-                0x00000000        0xc D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEji
                 0x00000000       0x24 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEmi
@@ -293,12 +294,8 @@ Discarded input sections
                 0x00000000       0x24 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEli
                 0x00000000       0x24 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print10printFloatEdh
-                0x00000000      0x1b6 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEdi
                 0x00000000        0x4 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print7printlnEdi
-                0x00000000       0x24 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .rodata._ZTV5Print
                 0x00000000        0xc D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text          0x00000000        0x0 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
@@ -318,8 +315,8 @@ Discarded input sections
                 0x00000000       0x4a D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
  .text._ZN6Stream14readBytesUntilEcPcj
                 0x00000000       0x68 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .text._ZN6Stream10readStringEv
-                0x00000000       0x34 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
+ .text._ZN6Stream15readStringUntilEc
+                0x00000000       0x4c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
  .text._ZN6Stream9findMultiEPNS_11MultiTargetEi
                 0x00000000      0x132 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
  .text._ZN6Stream9findUntilEPcjS0_j.part.0.constprop.1
@@ -340,6 +337,19 @@ Discarded input sections
  .text          0x00000000        0x0 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
  .data          0x00000000        0x0 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
  .bss           0x00000000        0x0 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .text          0x00000000        0x0 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .data          0x00000000        0x0 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .bss           0x00000000        0x0 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .text._Z10randomSeedm
+                0x00000000       0x10 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .text._Z6randoml
+                0x00000000       0x34 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .text._Z6randomll
+                0x00000000       0x44 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .text._Z8makeWordj
+                0x00000000        0x2 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .text._Z8makeWordhh
+                0x00000000        0xa D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
  .group         0x00000000        0x8 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .text          0x00000000        0x0 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .data          0x00000000        0x0 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
@@ -527,16 +537,15 @@ Discarded input sections
  .debug_str     0x00000000      0x144 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
  .comment       0x00000000       0x31 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
  .debug_frame   0x00000000       0x24 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+ .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
+ .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
+ .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
  .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
  .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
  .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
- .text.avr-libc.fplib
-                0x00000000        0x8 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
  .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
  .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
  .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
- .text.avr-libc.fplib
-                0x00000000       0xdc d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
  .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
  .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
  .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
@@ -546,8 +555,20 @@ Discarded input sections
  .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(unordsf2.o)
  .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(unordsf2.o)
  .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(unordsf2.o)
- .text.avr-libc.fplib
-                0x00000000        0xa d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(unordsf2.o)
+ .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulsi3.o)
+ .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulsi3.o)
+ .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulsi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulsi3.o)
+ .text.libgcc   0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulsi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulsi3.o)
  .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_udivmodsi4.o)
  .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_udivmodsi4.o)
  .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_udivmodsi4.o)
@@ -562,6 +583,34 @@ Discarded input sections
                 0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_udivmodsi4.o)
  .text.libgcc.fixed
                 0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_divmodsi4.o)
+ .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_divmodsi4.o)
+ .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_divmodsi4.o)
+ .text.libgcc   0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_divmodsi4.o)
+ .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_negsi2.o)
+ .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_negsi2.o)
+ .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_negsi2.o)
+ .text.libgcc   0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_negsi2.o)
  .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_exit.o)
  .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_exit.o)
  .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_exit.o)
@@ -693,6 +742,12 @@ Discarded input sections
  .comment       0x00000000       0x31 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(dtostrf.o)
  .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(malloc.o)
  .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(malloc.o)
+ .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(random.o)
+ .data          0x00000000        0x4 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(random.o)
+ .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(random.o)
+ .text.avr-libc
+                0x00000000      0x144 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(random.o)
+ .comment       0x00000000       0x31 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(random.o)
  .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(realloc.o)
  .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(realloc.o)
  .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(realloc.o)
@@ -850,6 +905,22 @@ Discarded input sections
  .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(strrev.o)
  .text.avr-libc
                 0x00000000       0x20 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(strrev.o)
+ .text          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulshisi3.o)
+ .data          0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulshisi3.o)
+ .bss           0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulshisi3.o)
+ .text.libgcc.mul
+                0x00000000       0x10 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulshisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulshisi3.o)
+ .text.libgcc   0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulshisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulshisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulshisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulshisi3.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulshisi3.o)
 
 Memory Configuration
 
@@ -981,7 +1052,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x1f04
+.text           0x00000000     0x2378
  *(.vectors)
  .vectors       0x00000000       0xe4 D:/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega2560/avr6/crtatmega2560.o
                 0x00000000                __vector_default
@@ -1123,281 +1194,321 @@ END GROUP
                 0x000002ca                __vector_42
                 0x000002cc                . = ALIGN (0x2)
  *(.text.*)
- .text.setup    0x000002cc       0x12 Sketch.o
+ .text.setup    0x000002cc       0x1c Sketch.o
                 0x000002cc                setup
  .text.startup._GLOBAL__sub_I_steps
-                0x000002de        0xc Sketch.o
+                0x000002e8        0xc Sketch.o
  .text.exit._GLOBAL__sub_D_steps
-                0x000002ea        0x8 Sketch.o
- .text.loop     0x000002f2       0xe0 Sketch.o
-                0x000002f2                loop
+                0x000002f4        0x8 Sketch.o
+ .text.loop     0x000002fc       0xda Sketch.o
+                0x000002fc                loop
  .text._Z18LimitSwitchPinInitv
-                0x000003d2       0x24 Source files/LimitSwitch.o
-                0x000003d2                _Z18LimitSwitchPinInitv
+                0x000003d6       0x30 Source files/LimitSwitch.o
+                0x000003d6                _Z18LimitSwitchPinInitv
  .text._Z12RemoveSpacesPc
-                0x000003f6       0x1a Source files/SerialDecoder.o
-                0x000003f6                _Z12RemoveSpacesPc
+                0x00000406       0x1a Source files/SerialDecoder.o
+                0x00000406                _Z12RemoveSpacesPc
  .text._Z23GetNumberAfterCharacterPcc
-                0x00000410       0x1e Source files/SerialDecoder.o
-                0x00000410                _Z23GetNumberAfterCharacterPcc
+                0x00000420       0x1e Source files/SerialDecoder.o
+                0x00000420                _Z23GetNumberAfterCharacterPcc
  .text._Z7GetCodePc
-                0x0000042e       0x34 Source files/SerialDecoder.o
-                0x0000042e                _Z7GetCodePc
+                0x0000043e       0x34 Source files/SerialDecoder.o
+                0x0000043e                _Z7GetCodePc
  .text._Z11DecodeFrame6String
-                0x00000462      0x14c Source files/SerialDecoder.o
-                0x00000462                _Z11DecodeFrame6String
+                0x00000472      0x120 Source files/SerialDecoder.o
+                0x00000472                _Z11DecodeFrame6String
  .text._Z11StepperInitv
-                0x000005ae       0x4a Source files/StepperMotor.o
-                0x000005ae                _Z11StepperInitv
+                0x00000592       0x62 Source files/StepperMotor.o
+                0x00000592                _Z11StepperInitv
  .text._Z15ReadLimitSwitchPbS_S_
-                0x000005f8       0x4e Source files/StepperMotor.o
-                0x000005f8                _Z15ReadLimitSwitchPbS_S_
+                0x000005f4       0x54 Source files/StepperMotor.o
+                0x000005f4                _Z15ReadLimitSwitchPbS_S_
  .text._Z17ChangeStepperXDirb
-                0x00000646        0xe Source files/StepperMotor.o
-                0x00000646                _Z17ChangeStepperXDirb
+                0x00000648       0x10 Source files/StepperMotor.o
+                0x00000648                _Z17ChangeStepperXDirb
  .text._Z17ChangeStepperYDirb
-                0x00000654        0xe Source files/StepperMotor.o
-                0x00000654                _Z17ChangeStepperYDirb
+                0x00000658       0x10 Source files/StepperMotor.o
+                0x00000658                _Z17ChangeStepperYDirb
  .text._Z17ChangeStepperZDirb
-                0x00000662        0xe Source files/StepperMotor.o
-                0x00000662                _Z17ChangeStepperZDirb
+                0x00000668       0x10 Source files/StepperMotor.o
+                0x00000668                _Z17ChangeStepperZDirb
  .text._Z17ChangeSteppersDirP5Steps
-                0x00000670       0xfe Source files/StepperMotor.o
-                0x00000670                _Z17ChangeSteppersDirP5Steps
+                0x00000678       0xfe Source files/StepperMotor.o
+                0x00000678                _Z17ChangeSteppersDirP5Steps
  .text._Z11MovementXYZP5Steps
-                0x0000076e      0x1cc Source files/StepperMotor.o
-                0x0000076e                _Z11MovementXYZP5Steps
+                0x00000776      0x1cc Source files/StepperMotor.o
+                0x00000776                _Z11MovementXYZP5Steps
  .text._Z8SetSpeedi
-                0x0000093a        0x6 Source files/StepperMotor.o
-                0x0000093a                _Z8SetSpeedi
+                0x00000942       0x74 Source files/StepperMotor.o
+                0x00000942                _Z8SetSpeedi
  .text.avr-libc.fplib
-                0x00000940        0xa d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
-                0x00000940                __subsf3
-                0x00000942                __addsf3
+                0x000009b6        0xa d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(addsf3.o)
+                0x000009b6                __subsf3
+                0x000009b8                __addsf3
  .text.avr-libc.fplib
-                0x0000094a       0xc0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
-                0x00000964                __addsf3x
+                0x000009c0       0xc0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(addsf3x.o)
+                0x000009da                __addsf3x
  .text.avr-libc.fplib
-                0x00000a0a        0x8 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
-                0x00000a0a                __nesf2
-                0x00000a0a                __eqsf2
-                0x00000a0a                __cmpsf2
-                0x00000a0a                __ltsf2
-                0x00000a0a                __lesf2
+                0x00000a80        0xa d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
+                0x00000a80                __fixsfsi
  .text.avr-libc.fplib
-                0x00000a12        0xa d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fixsfsi.o)
-                0x00000a12                __fixsfsi
+                0x00000a8a       0x58 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
+                0x00000a8a                __fixunssfsi
  .text.avr-libc.fplib
-                0x00000a1c       0x58 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fixunssfsi.o)
-                0x00000a1c                __fixunssfsi
+                0x00000ae2       0x7a d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
+                0x00000ae2                __floatunsisf
+                0x00000ae6                __floatsisf
  .text.avr-libc.fplib
-                0x00000a74       0x7a d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(floatsisf.o)
-                0x00000a74                __floatunsisf
-                0x00000a78                __floatsisf
+                0x00000b5c        0xc d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
+                0x00000b5c                __fp_inf
  .text.avr-libc.fplib
-                0x00000aee       0x48 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_cmp.o)
-                0x00000aee                __fp_cmp
+                0x00000b68        0x6 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
+                0x00000b68                __fp_nan
  .text.avr-libc.fplib
-                0x00000b36        0xc d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_inf.o)
-                0x00000b36                __fp_inf
+                0x00000b6e        0xe d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
+                0x00000b6e                __fp_pscA
  .text.avr-libc.fplib
-                0x00000b42        0x6 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_nan.o)
-                0x00000b42                __fp_nan
+                0x00000b7c        0xe d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
+                0x00000b7c                __fp_pscB
  .text.avr-libc.fplib
-                0x00000b48        0xe d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_pscA.o)
-                0x00000b48                __fp_pscA
+                0x00000b8a       0x22 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
+                0x00000b8a                __fp_round
  .text.avr-libc.fplib
-                0x00000b56        0xe d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_pscB.o)
-                0x00000b56                __fp_pscB
+                0x00000bac       0x44 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
+                0x00000bac                __fp_split3
+                0x00000bbc                __fp_splitA
  .text.avr-libc.fplib
-                0x00000b64       0x22 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_round.o)
-                0x00000b64                __fp_round
+                0x00000bf0        0xe d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
+                0x00000bf0                __fp_zero
+                0x00000bf2                __fp_szero
  .text.avr-libc.fplib
-                0x00000b86       0x44 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_split3.o)
-                0x00000b86                __fp_split3
-                0x00000b96                __fp_splitA
+                0x00000bfe        0x8 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(gesf2.o)
+                0x00000bfe                __gesf2
+                0x00000bfe                __gtsf2
  .text.avr-libc.fplib
-                0x00000bca        0xe d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_zero.o)
-                0x00000bca                __fp_zero
-                0x00000bcc                __fp_szero
- .text.avr-libc.fplib
-                0x00000bd8        0x8 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(gesf2.o)
-                0x00000bd8                __gesf2
-                0x00000bd8                __gtsf2
+                0x00000c06       0x48 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(fp_cmp.o)
+                0x00000c06                __fp_cmp
  .text._ZN14HardwareSerial9availableEv
-                0x00000be0       0x18 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000be0                _ZN14HardwareSerial9availableEv
+                0x00000c4e       0x18 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000c4e                _ZN14HardwareSerial9availableEv
  .text._ZN14HardwareSerial4peekEv
-                0x00000bf8       0x1c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000bf8                _ZN14HardwareSerial4peekEv
+                0x00000c66       0x1c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000c66                _ZN14HardwareSerial4peekEv
  .text._ZN14HardwareSerial4readEv
-                0x00000c14       0x28 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000c14                _ZN14HardwareSerial4readEv
+                0x00000c82       0x28 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000c82                _ZN14HardwareSerial4readEv
  .text._ZN14HardwareSerial17availableForWriteEv
-                0x00000c3c       0x1e D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000c3c                _ZN14HardwareSerial17availableForWriteEv
+                0x00000caa       0x1e D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000caa                _ZN14HardwareSerial17availableForWriteEv
  .text._Z14serialEventRunv
-                0x00000c5a       0x78 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000c5a                _Z14serialEventRunv
+                0x00000cc8       0x78 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000cc8                _Z14serialEventRunv
  .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
-                0x00000cd2       0x42 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000cd2                _ZN14HardwareSerial17_tx_udr_empty_irqEv
+                0x00000d40       0x42 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000d40                _ZN14HardwareSerial17_tx_udr_empty_irqEv
  .text._ZN14HardwareSerial5writeEh
-                0x00000d14       0x8c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000d14                _ZN14HardwareSerial5writeEh
+                0x00000d82       0x8c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000d82                _ZN14HardwareSerial5writeEh
  .text._ZN14HardwareSerial5flushEv
-                0x00000da0       0x42 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000da0                _ZN14HardwareSerial5flushEv
+                0x00000e0e       0x42 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000e0e                _ZN14HardwareSerial5flushEv
  .text._ZN14HardwareSerial5beginEmh
-                0x00000de2       0xc6 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000de2                _ZN14HardwareSerial5beginEmh
+                0x00000e50       0xc6 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000e50                _ZN14HardwareSerial5beginEmh
  .text.__vector_25
-                0x00000ea8       0x6c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00000ea8                __vector_25
+                0x00000f16       0x6c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000f16                __vector_25
  .text.__vector_26
-                0x00000f14       0x52 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00000f14                __vector_26
+                0x00000f82       0x52 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000f82                __vector_26
  .text._Z17Serial0_availablev
-                0x00000f66       0x12 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00000f66                _Z17Serial0_availablev
+                0x00000fd4       0x12 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000fd4                _Z17Serial0_availablev
  .text.startup._GLOBAL__sub_I___vector_25
-                0x00000f78       0x5a D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000fe6       0x5a D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
  .text.initVariant
-                0x00000fd2        0x2 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(main.o)
-                0x00000fd2                initVariant
+                0x00001040        0x2 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00001040                initVariant
  .text.startup.main
-                0x00000fd4       0x14 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(main.o)
-                0x00000fd4                main
+                0x00001042       0x14 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00001042                main
  .text._ZN5Print5writeEPKhj
-                0x00000fe8       0x54 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00000fe8                _ZN5Print5writeEPKhj
+                0x00001056       0x54 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001056                _ZN5Print5writeEPKhj
  .text._ZN5Print5writeEPKc
-                0x0000103c       0x2a D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x0000103c                _ZN5Print5writeEPKc
+                0x000010aa       0x2a D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000010aa                _ZN5Print5writeEPKc
+ .text._ZN5Print5printEc
+                0x000010d4        0xe D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000010d4                _ZN5Print5printEc
  .text._ZN5Print7printlnEv
-                0x00001066        0x6 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00001066                _ZN5Print7printlnEv
+                0x000010e2        0x6 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000010e2                _ZN5Print7printlnEv
  .text._ZN5Print7printlnEPKc
-                0x0000106c       0x20 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x0000106c                _ZN5Print7printlnEPKc
+                0x000010e8       0x20 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000010e8                _ZN5Print7printlnEPKc
+ .text._ZN5Print11printNumberEmh
+                0x00001108       0x8e D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001108                _ZN5Print11printNumberEmh
+ .text._ZN5Print5printEmi
+                0x00001196       0x18 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001196                _ZN5Print5printEmi
+ .text._ZN5Print5printEji
+                0x000011ae        0xa D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000011ae                _ZN5Print5printEji
+ .text._ZN5Print10printFloatEdh
+                0x000011b8      0x18e D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000011b8                _ZN5Print10printFloatEdh
+ .text._ZN5Print7printlnEdi
+                0x00001346       0x20 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001346                _ZN5Print7printlnEdi
  .text._ZN6Stream9timedReadEv
-                0x0000108c       0x5c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
-                0x0000108c                _ZN6Stream9timedReadEv
- .text._ZN6Stream15readStringUntilEc
-                0x000010e8       0x44 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
-                0x000010e8                _ZN6Stream15readStringUntilEc
+                0x00001366       0x5c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
+                0x00001366                _ZN6Stream9timedReadEv
+ .text._ZN6Stream10readStringEv
+                0x000013c2       0x2e D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
+                0x000013c2                _ZN6Stream10readStringEv
  .text.__vector_23
-                0x0000112c       0x94 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x0000112c                __vector_23
- .text.millis   0x000011c0       0x18 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x000011c0                millis
+                0x000013f0       0x94 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x000013f0                __vector_23
+ .text.millis   0x00001484       0x18 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00001484                millis
  .text.delayMicroseconds
-                0x000011d8       0x16 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x000011d8                delayMicroseconds
- .text.init     0x000011ee       0xc4 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x000011ee                init
+                0x0000149c       0x16 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x0000149c                delayMicroseconds
+ .text.init     0x000014b2       0xc4 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x000014b2                init
  .text.turnOffPWM
-                0x000012b2       0xaa D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .text.pinMode  0x0000135c       0x78 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x0000135c                pinMode
+                0x00001576       0xaa D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .text.pinMode  0x00001620       0x78 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00001620                pinMode
  .text.digitalWrite
-                0x000013d4       0x5c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x000013d4                digitalWrite
+                0x00001698       0x5c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00001698                digitalWrite
  .text.digitalRead
-                0x00001430       0x50 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00001430                digitalRead
+                0x000016f4       0x50 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000016f4                digitalRead
+ .text._Z3maplllll
+                0x00001744       0x7e D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+                0x00001744                _Z3maplllll
  .text._ZN6StringD2Ev
-                0x00001480        0x8 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00001480                _ZN6StringD2Ev
-                0x00001480                _ZN6StringD1Ev
+                0x000017c2        0x8 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000017c2                _ZN6StringD2Ev
+                0x000017c2                _ZN6StringD1Ev
  .text._ZN6String10invalidateEv
-                0x00001488       0x22 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00001488                _ZN6String10invalidateEv
+                0x000017ca       0x22 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000017ca                _ZN6String10invalidateEv
  .text._ZN6String12changeBufferEj
-                0x000014aa       0x32 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000014aa                _ZN6String12changeBufferEj
+                0x000017ec       0x32 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000017ec                _ZN6String12changeBufferEj
  .text._ZN6String7reserveEj
-                0x000014dc       0x36 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000014dc                _ZN6String7reserveEj
+                0x0000181e       0x36 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x0000181e                _ZN6String7reserveEj
  .text._ZN6String4copyEPKcj
-                0x00001512       0x3c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00001512                _ZN6String4copyEPKcj
+                0x00001854       0x3c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00001854                _ZN6String4copyEPKcj
  .text._ZN6StringC2EPKc
-                0x0000154e       0x28 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x0000154e                _ZN6StringC2EPKc
-                0x0000154e                _ZN6StringC1EPKc
+                0x00001890       0x28 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00001890                _ZN6StringC2EPKc
+                0x00001890                _ZN6StringC1EPKc
  .text._ZN6String6concatEPKcj
-                0x00001576       0x58 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00001576                _ZN6String6concatEPKcj
+                0x000018b8       0x58 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000018b8                _ZN6String6concatEPKcj
  .text._ZN6String6concatEc
-                0x000015ce       0x26 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000015ce                _ZN6String6concatEc
+                0x00001910       0x26 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00001910                _ZN6String6concatEc
  .text._ZNK6String8getBytesEPhjj
-                0x000015f4       0x5c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000015f4                _ZNK6String8getBytesEPhjj
+                0x00001936       0x5c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00001936                _ZNK6String8getBytesEPhjj
  .text.avr-libc.fplib
-                0x00001650        0x4 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
-                0x00001650                __mulsf3
+                0x00001992        0x8 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(cmpsf2.o)
+                0x00001992                __nesf2
+                0x00001992                __eqsf2
+                0x00001992                __cmpsf2
+                0x00001992                __ltsf2
+                0x00001992                __lesf2
  .text.avr-libc.fplib
-                0x00001654       0xc2 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
-                0x00001668                __mulsf3x
-                0x0000166c                __mulsf3_pse
+                0x0000199a        0x4 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(divsf3.o)
+                0x0000199a                __divsf3
+ .text.avr-libc.fplib
+                0x0000199e       0xcc d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(divsf3x.o)
+                0x000019b4                __divsf3x
+                0x000019b8                __divsf3_pse
+ .text.avr-libc.fplib
+                0x00001a6a        0x4 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(mulsf3.o)
+                0x00001a6a                __mulsf3
+ .text.avr-libc.fplib
+                0x00001a6e       0xc2 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(mulsf3x.o)
+                0x00001a82                __mulsf3x
+                0x00001a86                __mulsf3_pse
+ .text.avr-libc.fplib
+                0x00001b30        0x8 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libm.a(unordsf2.o)
+                0x00001b30                __unordsf2
+ .text.libgcc.mul
+                0x00001b38       0x1e d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_mulsi3.o)
+                0x00001b38                __mulsi3
  .text.libgcc.div
-                0x00001716       0x44 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_udivmodsi4.o)
-                0x00001716                __udivmodsi4
- .text.libgcc   0x0000175a       0x10 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_tablejump2.o)
-                0x0000175a                __tablejump2__
+                0x00001b56       0x44 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_udivmodsi4.o)
+                0x00001b56                __udivmodsi4
+ .text.libgcc.div
+                0x00001b9a       0x28 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_divmodsi4.o)
+                0x00001b9a                __divmodsi4
+ .text.libgcc.div
+                0x00001bc2       0x10 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_negsi2.o)
+                0x00001bc2                __negsi2
+ .text.libgcc   0x00001bd2       0x10 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_tablejump2.o)
+                0x00001bd2                __tablejump2__
  .text.libgcc.mul
-                0x0000176a       0x14 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_muluhisi3.o)
-                0x0000176a                __muluhisi3
+                0x00001be2       0x14 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_muluhisi3.o)
+                0x00001be2                __muluhisi3
  .text.libgcc.mul
-                0x0000177e       0x1e d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_umulhisi3.o)
-                0x0000177e                __umulhisi3
+                0x00001bf6       0x1e d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_umulhisi3.o)
+                0x00001bf6                __umulhisi3
  .text.avr-libc
-                0x0000179c      0x242 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(malloc.o)
-                0x0000179c                malloc
-                0x000018cc                free
+                0x00001c14      0x242 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(malloc.o)
+                0x00001c14                malloc
+                0x00001d44                free
  .text.avr-libc
-                0x000019de      0x1c0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(realloc.o)
-                0x000019de                realloc
+                0x00001e56      0x1c0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(realloc.o)
+                0x00001e56                realloc
  .text.avr-libc
-                0x00001b9e      0x2ac d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(strtod.o)
-                0x00001b9e                strtod
+                0x00002016      0x2a8 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(strtod.o)
+                0x00002016                strtod
  .text.avr-libc
-                0x00001e4a       0x10 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(isspace.o)
-                0x00001e4a                isspace
+                0x000022be       0x10 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(isspace.o)
+                0x000022be                isspace
  .text.avr-libc
-                0x00001e5a       0x30 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(strncasecmp_P.o)
-                0x00001e5a                strncasecmp_P
+                0x000022ce       0x30 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(strncasecmp_P.o)
+                0x000022ce                strncasecmp_P
  .text.avr-libc
-                0x00001e8a       0x12 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(memcpy.o)
-                0x00001e8a                memcpy
+                0x000022fe       0x12 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(memcpy.o)
+                0x000022fe                memcpy
  .text.avr-libc
-                0x00001e9c        0xe d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(strcpy.o)
-                0x00001e9c                strcpy
+                0x00002310        0xe d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(strcpy.o)
+                0x00002310                strcpy
  .text.avr-libc
-                0x00001eaa       0x14 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(strlwr.o)
-                0x00001eaa                strlwr
+                0x0000231e       0x14 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(strlwr.o)
+                0x0000231e                strlwr
  .text.avr-libc
-                0x00001ebe       0x1e d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(strncpy.o)
-                0x00001ebe                strncpy
+                0x00002332       0x1e d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(strncpy.o)
+                0x00002332                strncpy
  .text.avr-libc
-                0x00001edc        0x6 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
-                0x00001edc                __ctype_isfalse
-                0x00001ee0                __ctype_istrue
-                0x00001ee2                . = ALIGN (0x2)
+                0x00002350        0x6 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(cty_isfalse.o)
+                0x00002350                __ctype_isfalse
+                0x00002354                __ctype_istrue
+                0x00002356                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00001ee2        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_exit.o)
-                0x00001ee2                _exit
-                0x00001ee2                exit
+ .fini9         0x00002356        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_exit.o)
+                0x00002356                _exit
+                0x00002356                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
  *(.fini7)
  *(.fini7)
  *(.fini6)
- .fini6         0x00001ee2       0x1e d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_dtors.o)
-                0x00001ee2                __do_global_dtors
+ .fini6         0x00002356       0x1e d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_dtors.o)
+                0x00002356                __do_global_dtors
  *(.fini6)
  *(.fini5)
  *(.fini5)
@@ -1410,11 +1521,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00001f00        0x4 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_exit.o)
+ .fini0         0x00002374        0x4 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr6\libgcc.a(_exit.o)
  *(.fini0)
-                0x00001f04                _etext = .
+                0x00002378                _etext = .
 
-.data           0x00800200       0x2a load address 0x00001f04
+.data           0x00800200       0x32 load address 0x00002378
                 0x00800200                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800200        0x6 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(malloc.o)
@@ -1425,58 +1536,55 @@ END GROUP
  *(.rodata)
  *(.rodata*)
  .rodata.str1.1
-                0x00800206        0x2 Sketch.o
-                                  0x3 (size before relaxing)
+                0x00800206        0xb Sketch.o
+                                  0xc (size before relaxing)
  .rodata._ZTV14HardwareSerial
-                0x00800208       0x12 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00800208                _ZTV14HardwareSerial
+                0x00800211       0x12 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00800211                _ZTV14HardwareSerial
  .rodata.str1.1
-                0x0080021a        0xf D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00800223        0xf D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .rodata.str1.1
-                0x00800229        0x1 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
+                0x00800232        0x1 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
  *(.gnu.linkonce.d*)
-                0x0080022a                . = ALIGN (0x2)
- *fill*         0x00800229        0x1 
-                0x0080022a                _edata = .
-                0x0080022a                PROVIDE (__data_end, .)
+                0x00800234                . = ALIGN (0x2)
+                0x00800234                _edata = .
+                0x00800234                PROVIDE (__data_end, .)
 
-.bss            0x0080022a       0xc3
-                0x0080022a                PROVIDE (__bss_start, .)
+.bss            0x00800232       0xc2
+                0x00800232                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
- .bss.flagaok   0x0080022a        0x1 Sketch.o
-                0x0080022a                flagaok
  .bss.readBuffer
-                0x0080022b        0x6 Sketch.o
-                0x0080022b                readBuffer
- .bss.steps     0x00800231       0x10 Sketch.o
-                0x00800231                steps
- .bss.Serial    0x00800241       0x9d D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00800241                Serial
+                0x00800232        0x6 Sketch.o
+                0x00800232                readBuffer
+ .bss.steps     0x00800238       0x10 Sketch.o
+                0x00800238                steps
+ .bss.Serial    0x00800248       0x9d D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00800248                Serial
  .bss.timer0_fract
-                0x008002de        0x1 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x008002e5        0x1 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
  .bss.timer0_millis
-                0x008002df        0x4 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x008002df                timer0_millis
+                0x008002e6        0x4 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x008002e6                timer0_millis
  .bss.timer0_overflow_count
-                0x008002e3        0x4 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x008002e3                timer0_overflow_count
+                0x008002ea        0x4 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x008002ea                timer0_overflow_count
  *(COMMON)
- COMMON         0x008002e7        0x4 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(malloc.o)
-                0x008002e7                __brkval
-                0x008002e9                __flp
- COMMON         0x008002eb        0x2 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(errno.o)
-                0x008002eb                errno
-                0x008002ed                PROVIDE (__bss_end, .)
-                0x00001f04                __data_load_start = LOADADDR (.data)
-                0x00001f2e                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x008002ee        0x4 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(malloc.o)
+                0x008002ee                __brkval
+                0x008002f0                __flp
+ COMMON         0x008002f2        0x2 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(errno.o)
+                0x008002f2                errno
+                0x008002f4                PROVIDE (__bss_end, .)
+                0x00002378                __data_load_start = LOADADDR (.data)
+                0x000023aa                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008002ed        0x0
+.noinit         0x008002f4        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x008002ed                _end = .
-                0x008002ed                PROVIDE (__heap_start, .)
+                0x008002f4                _end = .
+                0x008002f4                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -1529,6 +1637,7 @@ END GROUP
  .comment       0x00000030       0x31 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
  .comment       0x00000030       0x31 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
  .comment       0x00000030       0x31 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .comment       0x00000030       0x31 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
  .comment       0x00000030       0x31 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
  .comment       0x00000030       0x31 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(malloc.o)
  .comment       0x00000030       0x31 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr6\libc.a(realloc.o)
@@ -1556,7 +1665,7 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0x698
+.debug_aranges  0x00000000      0x6e0
  *(.debug_aranges)
  .debug_aranges
                 0x00000000       0x38 Sketch.o
@@ -1581,114 +1690,123 @@ END GROUP
  .debug_aranges
                 0x000003a8       0x38 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
  .debug_aranges
-                0x000003e0      0x2b8 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000003e0       0x48 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .debug_aranges
+                0x00000428      0x2b8 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000    0x11bc9
+.debug_info     0x00000000    0x11e8c
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0xbbc D:/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega2560/avr6/crtatmega2560.o
- .debug_info    0x00000bbc     0x1a93 Sketch.o
- .debug_info    0x0000264f      0x286 Source files/LimitSwitch.o
- .debug_info    0x000028d5     0x1553 Source files/SerialDecoder.o
- .debug_info    0x00003e28      0x861 Source files/StepperMotor.o
- .debug_info    0x00004689     0x1f83 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_info    0x0000660c     0x1b74 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_info    0x00008180      0x295 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_info    0x00008415     0x295d D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_info    0x0000ad72     0x21bc D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .debug_info    0x0000cf2e      0x329 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_info    0x0000d257      0x63a D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_info    0x0000d891     0x4338 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_info    0x00000bbc     0x1aeb Sketch.o
+ .debug_info    0x000026a7      0x286 Source files/LimitSwitch.o
+ .debug_info    0x0000292d     0x1540 Source files/SerialDecoder.o
+ .debug_info    0x00003e6d      0x8af Source files/StepperMotor.o
+ .debug_info    0x0000471c     0x1f83 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_info    0x0000669f     0x1b74 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_info    0x00008213      0x295 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_info    0x000084a8     0x295d D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_info    0x0000ae05     0x21bc D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
+ .debug_info    0x0000cfc1      0x329 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_info    0x0000d2ea      0x63a D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_info    0x0000d924      0x230 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .debug_info    0x0000db54     0x4338 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
 
-.debug_abbrev   0x00000000     0x2e82
+.debug_abbrev   0x00000000     0x2fc2
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0xb1a D:/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega2560/avr6/crtatmega2560.o
  .debug_abbrev  0x00000b1a      0x3ac Sketch.o
  .debug_abbrev  0x00000ec6       0xd3 Source files/LimitSwitch.o
  .debug_abbrev  0x00000f99      0x350 Source files/SerialDecoder.o
- .debug_abbrev  0x000012e9      0x209 Source files/StepperMotor.o
- .debug_abbrev  0x000014f2      0x432 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_abbrev  0x00001924      0x3ce D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_abbrev  0x00001cf2      0x12d D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_abbrev  0x00001e1f      0x47a D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_abbrev  0x00002299      0x487 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .debug_abbrev  0x00002720      0x146 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_abbrev  0x00002866      0x15a D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_abbrev  0x000029c0      0x4c2 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_abbrev  0x000012e9      0x21e Source files/StepperMotor.o
+ .debug_abbrev  0x00001507      0x432 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_abbrev  0x00001939      0x3ce D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_abbrev  0x00001d07      0x12d D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_abbrev  0x00001e34      0x47a D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_abbrev  0x000022ae      0x487 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
+ .debug_abbrev  0x00002735      0x146 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_abbrev  0x0000287b      0x15a D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_abbrev  0x000029d5      0x12b D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .debug_abbrev  0x00002b00      0x4c2 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
 
-.debug_line     0x00000000     0x38b7
+.debug_line     0x00000000     0x39c9
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x1f9 D:/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega2560/avr6/crtatmega2560.o
- .debug_line    0x000001f9      0x294 Sketch.o
- .debug_line    0x0000048d      0x133 Source files/LimitSwitch.o
- .debug_line    0x000005c0      0x28c Source files/SerialDecoder.o
- .debug_line    0x0000084c      0x3f9 Source files/StepperMotor.o
- .debug_line    0x00000c45      0x461 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_line    0x000010a6      0x260 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_line    0x00001306      0x14d D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_line    0x00001453      0x659 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_line    0x00001aac      0x5cb D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .debug_line    0x00002077      0x2b7 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_line    0x0000232e      0x270 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_line    0x0000259e     0x1319 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_line    0x000001f9      0x27d Sketch.o
+ .debug_line    0x00000476      0x133 Source files/LimitSwitch.o
+ .debug_line    0x000005a9      0x280 Source files/SerialDecoder.o
+ .debug_line    0x00000829      0x3ff Source files/StepperMotor.o
+ .debug_line    0x00000c28      0x461 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_line    0x00001089      0x260 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_line    0x000012e9      0x14d D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_line    0x00001436      0x659 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_line    0x00001a8f      0x5cb D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
+ .debug_line    0x0000205a      0x2b7 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_line    0x00002311      0x270 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_line    0x00002581      0x12f D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .debug_line    0x000026b0     0x1319 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
 
-.debug_frame    0x00000000     0x1678
+.debug_frame    0x00000000     0x1798
  *(.debug_frame)
  .debug_frame   0x00000000       0x64 Sketch.o
  .debug_frame   0x00000064       0x24 Source files/LimitSwitch.o
- .debug_frame   0x00000088       0x8c Source files/SerialDecoder.o
- .debug_frame   0x00000114       0xf0 Source files/StepperMotor.o
- .debug_frame   0x00000204      0x110 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_frame   0x00000314       0xe0 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_frame   0x000003f4       0x54 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_frame   0x00000448      0x3ac D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_frame   0x000007f4      0x2e4 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .debug_frame   0x00000ad8       0xc4 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_frame   0x00000b9c       0x7c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_frame   0x00000c18      0xa60 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_frame   0x00000088       0x80 Source files/SerialDecoder.o
+ .debug_frame   0x00000108      0x128 Source files/StepperMotor.o
+ .debug_frame   0x00000230      0x110 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_frame   0x00000340       0xe0 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_frame   0x00000420       0x54 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_frame   0x00000474      0x3ac D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_frame   0x00000820      0x2e4 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
+ .debug_frame   0x00000b04       0xc4 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_frame   0x00000bc8       0x7c D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_frame   0x00000c44       0xf4 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .debug_frame   0x00000d38      0xa60 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
 
-.debug_str      0x00000000     0x2942
+.debug_str      0x00000000     0x29ed
  *(.debug_str)
  .debug_str     0x00000000      0x3e6 D:/Atmel Studio/7.0/Packs/atmel/ATmega_DFP/1.2.132/gcc/dev/atmega2560/avr6/crtatmega2560.o
- .debug_str     0x000003e6     0x12c8 Sketch.o
-                               0x1381 (size before relaxing)
- .debug_str     0x000016ae       0x60 Source files/LimitSwitch.o
+ .debug_str     0x000003e6     0x12d5 Sketch.o
+                               0x138e (size before relaxing)
+ .debug_str     0x000016bb       0x60 Source files/LimitSwitch.o
                                 0x2ae (size before relaxing)
- .debug_str     0x0000170e       0xe7 Source files/SerialDecoder.o
+ .debug_str     0x0000171b       0xe7 Source files/SerialDecoder.o
                                 0xee7 (size before relaxing)
- .debug_str     0x000017f5      0x132 Source files/StepperMotor.o
-                                0x457 (size before relaxing)
- .debug_str     0x00001927      0x4eb D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_str     0x00001802      0x13e Source files/StepperMotor.o
+                                0x463 (size before relaxing)
+ .debug_str     0x00001940      0x4eb D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
                                0x16c9 (size before relaxing)
- .debug_str     0x00001e12       0x86 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_str     0x00001e2b       0x86 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
                                0x140d (size before relaxing)
- .debug_str     0x00001e98       0x37 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_str     0x00001eb1       0x37 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(main.o)
                                 0x2b9 (size before relaxing)
- .debug_str     0x00001ecf      0x3ce D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_str     0x00001ee8      0x3b9 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
                                0x1247 (size before relaxing)
- .debug_str     0x0000229d       0x9d D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
+ .debug_str     0x000022a1       0x9d D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
                                0x126b (size before relaxing)
- .debug_str     0x0000233a      0x158 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_str     0x0000233e      0x158 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
                                 0x24f (size before relaxing)
- .debug_str     0x00002492       0xbb D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_str     0x00002496       0xbb D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
                                 0x2b4 (size before relaxing)
- .debug_str     0x0000254d      0x3f5 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_str     0x00002551       0xa7 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+                                0x252 (size before relaxing)
+ .debug_str     0x000025f8      0x3f5 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
                                0x119a (size before relaxing)
 
-.debug_loc      0x00000000     0x8803
+.debug_loc      0x00000000     0x8cca
  *(.debug_loc)
- .debug_loc     0x00000000       0x47 Sketch.o
- .debug_loc     0x00000047      0x2cb Source files/SerialDecoder.o
- .debug_loc     0x00000312      0x365 Source files/StepperMotor.o
- .debug_loc     0x00000677      0x482 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_loc     0x00000af9      0x1b0 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_loc     0x00000ca9     0x1c87 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_loc     0x00002930     0x14ae D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
- .debug_loc     0x00003dde      0x28d D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_loc     0x0000406b      0x56b D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_loc     0x000045d6     0x422d D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_loc     0x00000000       0x5d Sketch.o
+ .debug_loc     0x0000005d      0x2db Source files/SerialDecoder.o
+ .debug_loc     0x00000338      0x430 Source files/StepperMotor.o
+ .debug_loc     0x00000768      0x482 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_loc     0x00000bea      0x1b0 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_loc     0x00000d9a     0x1c87 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_loc     0x00002a21     0x14ae D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
+ .debug_loc     0x00003ecf      0x28d D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_loc     0x0000415c      0x56b D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_loc     0x000046c7      0x3d6 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .debug_loc     0x00004a9d     0x422d D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -1708,7 +1826,7 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000      0x688
+.debug_ranges   0x00000000      0x6c0
  *(.debug_ranges)
  .debug_ranges  0x00000000       0x28 Sketch.o
  .debug_ranges  0x00000028       0x10 Source files/LimitSwitch.o
@@ -1721,7 +1839,8 @@ END GROUP
  .debug_ranges  0x00000278       0xb8 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(Stream.o)
  .debug_ranges  0x00000330       0x38 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
  .debug_ranges  0x00000368       0x28 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .debug_ranges  0x00000390      0x2f8 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+ .debug_ranges  0x00000390       0x38 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WMath.o)
+ .debug_ranges  0x000003c8      0x2f8 D:\Programy Arduino\Drukarka3D\3D-Printer\3D Printer\3D Printer\ArduinoCore\Debug\libArduinoCore.a(WString.o)
 
 .debug_macro
  *(.debug_macro)

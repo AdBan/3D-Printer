@@ -50,6 +50,7 @@ it = 1;
 figure(1)
 axis equal;
 view(24, 8);
+<<<<<<< HEAD
 hold on;
 
 %% main loop
@@ -57,6 +58,13 @@ tic
 for t = 0 : 0.1 : 200
     pc = [7 + sin(t), 8.25 + cos(t), 1 + t]; % updae extruder position
     % update wagon positions
+=======
+
+hold on;
+
+for t = 0 : 0.5 : 200
+    pc = [7 + sin(t),8.25 + cos(t), 1 + t];
+>>>>>>> parent of f21991c... New additions
     zc(1) = pc(3) + sqrt(r^2 - (p1d(1) - pc(1))^2 - (p1d(2) - pc(2))^2);
     zc(2) = pc(3) + sqrt(r^2 - (p2d(1) - pc(1))^2 - (p2d(2) - pc(2))^2);
     zc(3) = pc(3) + sqrt(r^2 - (p3d(1) - pc(1))^2 - (p3d(2) - pc(2))^2);
@@ -66,6 +74,7 @@ for t = 0 : 0.1 : 200
         krok1 = -(zc(1) - z01);
         krok2 = -(zc(2) - z02);
         krok3 = -(zc(3) - z03);
+<<<<<<< HEAD
         
         % create frame to send to 3D-printer
         frame = ['g00' 'x' num2str(round(krok1*1000)) 'y' num2str(round(krok2*1000)) 'z' num2str(round(krok3*1000))];
@@ -80,6 +89,11 @@ for t = 0 : 0.1 : 200
         y(it) = round(krok2*1000);
         z(it) = round(krok3*1000);
         it = it + 1;
+=======
+        frame = ['x' num2str(round(krok1*2000)) 'y' num2str(round(krok2*2000)) 'z' num2str(round(krok3*2000)) '\n'];
+        fprintf(s, frame);
+        pause(2);
+>>>>>>> parent of f21991c... New additions
     end 
     
     set(odc4, 'XData', [p1d(1) pc(1)],'YData', [p1d(2) pc(2)], 'ZData', [zc(1) pc(3)]);

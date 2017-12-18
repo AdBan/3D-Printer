@@ -138,5 +138,5 @@ int SetSpeed(int speed)
 	else if (speed > 10)
 		speed = 10;
 	
-	return (1000 - map(speed, MINSPEED, MAXSPEED, 0, 999));
+	return 1000 - map(speed, MINSPEED, MAXSPEED, 0, 750);
 }
