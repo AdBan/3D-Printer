@@ -38,14 +38,6 @@ void StepperInit()
 }
 
 ///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
-void ReadLimitSwitch(bool *limitSwitchX, bool *limitSwitchY, bool *limitSwitchZ)
-{
-	*limitSwitchX = digitalRead(pinLimitSwitchX);
-	*limitSwitchY = digitalRead(pinLimitSwitchY);
-	*limitSwitchZ = digitalRead(pinLimitSwitchZ);
-}
-
-///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
 void ChangeStepperXDir(bool dirX)
 {
 	if (dirX)
@@ -75,7 +67,6 @@ void ChangeStepperZDir(bool dirZ)
 ///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
 void ChangeSteppersDir(Steps *steps)
 {
-// Change steper direction
 	if ((*steps).x > 0)
 		ChangeStepperXDir(false);
 	else

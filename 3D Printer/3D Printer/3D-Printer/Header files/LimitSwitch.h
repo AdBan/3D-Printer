@@ -15,6 +15,7 @@
 #define pinLimitSwitchZ  19
 
 void LimitSwitchPinInit();
+void ReadLimitSwitch(bool *limitSwitchX, bool *limitSwitchY, bool *limitSwitchZ);
 
 
 #endif /* LIMITSWITCH_H_ */

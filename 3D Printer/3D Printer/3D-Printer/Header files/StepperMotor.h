@@ -37,7 +37,6 @@ void StepperInit();
 void ChangeStepperXDir(bool dirX);
 void ChangeStepperYDir(bool dirY);
 void ChangeStepperZDir(bool dirZ);
-void ReadLimitSwitch();
 void ChangeSteppersDir(Steps *steps);
 void MovementXYZ(Steps *steps);
 

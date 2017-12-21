@@ -18,3 +18,11 @@ void LimitSwitchPinInit()
 	digitalWrite(pinLimitSwitchY, HIGH);
 	digitalWrite(pinLimitSwitchZ, HIGH);
 }
+
+///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
+void ReadLimitSwitch(bool *limitSwitchX, bool *limitSwitchY, bool *limitSwitchZ)
+{
+	*limitSwitchX = digitalRead(pinLimitSwitchX);
+	*limitSwitchY = digitalRead(pinLimitSwitchY);
+	*limitSwitchZ = digitalRead(pinLimitSwitchZ);
+}
