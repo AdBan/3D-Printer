@@ -11,7 +11,7 @@
 
 void RemoveSpaces(char* source);
 double GetNumberAfterCharacter(char* source, char character);
-Steps DecodeFrame(String frame);
+void DecodeFrame(String frame, Steps *steps);
 
 int GetCode(char* readDataBuffer);
 #endif /* SERIALDECODER_H_ */

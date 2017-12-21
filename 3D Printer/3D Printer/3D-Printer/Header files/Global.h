@@ -14,6 +14,4 @@ typedef struct Steps
 	double x, y, z, speed;
 };
 
-
-
 #endif /* GLOBAL_H_ */

@@ -42,10 +42,8 @@ double GetNumberAfterCharacter(char* source, char character)
 }
 
 ///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
-Steps DecodeFrame(String frame)
+void DecodeFrame(String frame, Steps *steps)
 {
-	Steps steps;
-
 	//convert string to char
 	char readDataChar[frame.length() + 1];
 	frame.toCharArray(readDataChar, frame.length() + 1);
@@ -55,25 +53,24 @@ Steps DecodeFrame(String frame)
 
 	switch (GetCode(readDataChar))
 	{
-		case 0: 
-			steps.speed = SetSpeed(G00SPEED);
+		case 0:		//G00
+			(*steps).speed = SetSpeed((int)G00SPEED);
 			break;
-		case 1:
-			steps.speed = SetSpeed(G01SPEED);
+		case 1:		//G01
+			(*steps).speed = SetSpeed((int)G01SPEED);
 			break;
-		case 99:
-			steps.speed = SetSpeed((int)GetNumberAfterCharacter(readDataChar, 'f'));
-			return steps;
+		case 99:	//F
+			(*steps).speed = SetSpeed((int)GetNumberAfterCharacter(readDataChar, 'f'));
+			return;
 		default:
-			return steps;
+			break;
 	}
-	steps.x = (int)GetNumberAfterCharacter(readDataChar, 'x');
-	steps.y = (int)GetNumberAfterCharacter(readDataChar, 'y');
-	steps.z = (int)GetNumberAfterCharacter(readDataChar, 'z');
-
-	return steps;
+	(*steps).x = (int)GetNumberAfterCharacter(readDataChar, 'x');
+	(*steps).y = (int)GetNumberAfterCharacter(readDataChar, 'y');
+	(*steps).z = (int)GetNumberAfterCharacter(readDataChar, 'z');
 }
 
+///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
 int GetCode(char* readBuffer)
 {
 	if (readBuffer[0] == 'g' && readBuffer[1] == '0' && readBuffer[2] == '0')

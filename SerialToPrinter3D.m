@@ -1,11 +1,5 @@
-%% Clear previous mfile
-clc; clear all;
-delete(instrfind);
-
-%% Open serial port
-% s = serial('COM3', 'BaudRate', 57600);
-% fopen(s);
-% pause(1);
+clc, clear all;
+s = SerialOpen();
 
 %% Printer columns [x y z]
 % Lower 
@@ -46,42 +40,34 @@ y = zeros(1, 20000);
 z = zeros(1, 20000);
 it = 1;
 
+
 %% Plot options
 figure(1)
 axis equal;
 view(24, 8);
-<<<<<<< HEAD
 hold on;
 
 %% main loop
 tic
 for t = 0 : 0.1 : 200
-    pc = [7 + sin(t), 8.25 + cos(t), 1 + t]; % updae extruder position
+    pc = [7 + sin(t), 8.25 + cos(t), 1 + 0.5*t]; % update extruder position
     % update wagon positions
-=======
-
-hold on;
-
-for t = 0 : 0.5 : 200
-    pc = [7 + sin(t),8.25 + cos(t), 1 + t];
->>>>>>> parent of f21991c... New additions
     zc(1) = pc(3) + sqrt(r^2 - (p1d(1) - pc(1))^2 - (p1d(2) - pc(2))^2);
     zc(2) = pc(3) + sqrt(r^2 - (p2d(1) - pc(1))^2 - (p2d(2) - pc(2))^2);
     zc(3) = pc(3) + sqrt(r^2 - (p3d(1) - pc(1))^2 - (p3d(2) - pc(2))^2);
     
     % relative wagon position
     if exist('z01', 'var') && exist('z02', 'var') && exist('z03', 'var')
-        krok1 = -(zc(1) - z01);
-        krok2 = -(zc(2) - z02);
-        krok3 = -(zc(3) - z03);
-<<<<<<< HEAD
+        krok1 = (zc(1) - z01);
+        krok2 = (zc(2) - z02);
+        krok3 = (zc(3) - z03);
         
         % create frame to send to 3D-printer
-        frame = ['g00' 'x' num2str(round(krok1*1000)) 'y' num2str(round(krok2*1000)) 'z' num2str(round(krok3*1000))];
-        %fprintf(s, frame); % send frame
-        %ok = fscanf(s); % assign frame response to 'ok' variable
-        %while(ok == '   ') % wait for frame to send anything else than ""
-        %end
+        frame = ['g01' 'x' num2str(round(krok1*1000)) 'y' num2str(round(krok2*1000)) 'z' num2str(round(krok3*1000))];
+        fprintf(s, frame); % send frame
+        ok = fscanf(s); % assign frame response to 'ok' variable
+        while(strcmp(ok, '   ')) % wait for frame to send anything else than ""
+        end
         ok = '   '; % clear 'ok' variable
         
         % assign current steps to steps storage variables 
@@ -89,11 +75,6 @@ for t = 0 : 0.5 : 200
         y(it) = round(krok2*1000);
         z(it) = round(krok3*1000);
         it = it + 1;
-=======
-        frame = ['x' num2str(round(krok1*2000)) 'y' num2str(round(krok2*2000)) 'z' num2str(round(krok3*2000)) '\n'];
-        fprintf(s, frame);
-        pause(2);
->>>>>>> parent of f21991c... New additions
     end 
     
     set(odc4, 'XData', [p1d(1) pc(1)],'YData', [p1d(2) pc(2)], 'ZData', [zc(1) pc(3)]);
@@ -105,4 +86,4 @@ for t = 0 : 0.5 : 200
     z03 = zc(3);
 end
 toc % get elapsed (for loop) time
-%fclose(s); % close serial port
+fclose(s); % close serial port

@@ -82,7 +82,8 @@ void ChangeSteppersDir(Steps *steps)
 	{
 		ChangeStepperXDir(true);
 		(*steps).x = abs((*steps).x);
-	}			
+	}		
+		
 	if ((*steps).y > 0)
 		ChangeStepperYDir(false);
 	else
@@ -90,6 +91,7 @@ void ChangeSteppersDir(Steps *steps)
 		ChangeStepperYDir(true);
 		(*steps).y = abs((*steps).y);
 	}
+	
 	if ((*steps).z > 0)
 		ChangeStepperZDir(false);
 	else
@@ -131,6 +133,7 @@ void MovementXYZ(Steps *steps)
 	delayMicroseconds((*steps).speed);
 }
 
+///CREDIT: Adam Baniuszewicz, Bartosz Flis, Jakub Sybidlo
 int SetSpeed(int speed)
 {
 	if (speed < 0)
@@ -138,5 +141,5 @@ int SetSpeed(int speed)
 	else if (speed > 10)
 		speed = 10;
 	
-	return 1000 - map(speed, MINSPEED, MAXSPEED, 0, 750);
+	return (int)(1000 - map(speed, MINSPEED, MAXSPEED, 0, 999));
 }
